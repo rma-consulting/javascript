@@ -1,5 +1,17 @@
-// Use this file as a starting point for your project's .eslintrc.
-// Copy this file, and add rule overrides as needed.
 {
-  "extends": "airbnb"
+  "extends": [
+    "./eslint-config/default/.eslintrc",
+    "./eslint-config/es6/.eslintrc",
+    "./eslint-config/react/.eslintrc"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": false,
+    "mocha": false,
+    "jasmine": false
+  },
+  "ecmaFeatures": {},
+  "globals": {},
+  "rules": {}
 }

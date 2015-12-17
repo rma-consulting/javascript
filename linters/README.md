@@ -1,11 +1,6 @@
-## `.eslintrc`
+# Using .eslintrc for your project
 
-Our `.eslintrc` requires the following NPM packages:
+Copy the eslint-config folder and `.eslintrc` file from /linters to your project root.
 
-```
-npm install --save-dev \
-  eslint-config-airbnb \
-  eslint \
-  babel-eslint \
-  eslint-plugin-react
-```
+You should modify `.eslintrc` file to use the correct configurations to extend. Also use the rules to override the rules in the extended files.
+
