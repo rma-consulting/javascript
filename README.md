@@ -1647,6 +1647,8 @@ Other Style Guides
 
   - [18.11](#18.11) <a name='18.11'></a> Add spaces inside curly braces.
 
+  RMA: We would like to turn this rule off in our code style.
+
   eslint rules: [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing.html).
 
     ```javascript
@@ -1697,7 +1699,9 @@ Other Style Guides
     };
     ```
 
-  - [19.2](#19.2) <a name='19.2'></a> Additional trailing comma: **Yup.**
+  - [19.2](#19.2) <a name='19.2'></a> Additional trailing comma: **Nope.**
+
+  RMA: Below guidance suggests the use of a trailing comma for the purposes of cleaner diffs, however we would like to turn this rule off.
 
   eslint rules: [`no-comma-dangle`](http://eslint.org/docs/rules/no-comma-dangle.html).
 

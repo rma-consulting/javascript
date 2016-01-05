@@ -45,7 +45,7 @@
     "no-trailing-spaces": 2,
     "no-underscore-dangle": 0,
     "no-unneeded-ternary": 0,
-    "object-curly-spacing": [2, "always"],
+    "object-curly-spacing": 0,
     "one-var": [2, "never"],
     "operator-assignment": 0,
     "operator-linebreak": 0,
@@ -70,7 +70,7 @@
     }],
     "wrap-regex": 0,
 
-    "comma-dangle": [2, "always-multiline"],
+    "comma-dangle": 0,
     "no-cond-assign": [2, "always"],
     "no-console": 1,
     "no-constant-condition": 1,
